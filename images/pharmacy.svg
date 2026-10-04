@@ -1,18 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Pharmacy management system console illustration">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 300" role="img" aria-label="Pharmacy management system console illustration">
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#14312f"/></linearGradient></defs>
-<rect width="800" height="500" fill="url(#g)"/>
-<rect x="90" y="60" width="620" height="380" rx="16" fill="#08111a" stroke="#334155"/>
-<rect x="90" y="60" width="620" height="40" rx="16" fill="#111c2b"/>
-<rect x="90" y="84" width="620" height="16" fill="#111c2b"/>
-<circle cx="118" cy="80" r="6" fill="#ef4444"/><circle cx="140" cy="80" r="6" fill="#f59e0b"/><circle cx="162" cy="80" r="6" fill="#22c55e"/>
-<g font-family="ui-monospace,Consolas,Menlo,monospace" font-size="20">
-<text x="125" y="150" fill="#5eead4" font-weight="700">SMART PHARMACY SYSTEM</text>
-<text x="125" y="188" fill="#475569">------------------------</text>
-<text x="125" y="226" fill="#e2e8f0">[1] Manager Login</text>
-<text x="125" y="258" fill="#e2e8f0">[2] Pharmacist Login</text>
-<text x="125" y="312" fill="#94a3b8">Enter your choice:</text>
-<rect x="318" y="296" width="11" height="22" fill="#5eead4"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+<rect width="810" height="300" fill="url(#g)"/>
+<rect x="70" y="26" width="670" height="268" rx="14" fill="#08111a" stroke="#334155"/>
+<path d="M70 40a14 14 0 0 1 14-14h642a14 14 0 0 1 14 14v22H70z" fill="#111c2b"/>
+<circle cx="96" cy="44" r="6" fill="#ef4444"/><circle cx="116" cy="44" r="6" fill="#f59e0b"/><circle cx="136" cy="44" r="6" fill="#22c55e"/>
+<g font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19">
+<text x="100" y="105" fill="#5eead4" font-weight="700">SMART PHARMACY SYSTEM</text>
+<text x="100" y="132" fill="#475569">------------------------</text>
+<text x="100" y="164" fill="#e2e8f0">[1] Manager Login</text>
+<text x="100" y="192" fill="#e2e8f0">[2] Pharmacist Login</text>
+<text x="100" y="236" fill="#94a3b8">Enter your choice:</text>
+<rect x="288" y="221" width="10" height="20" fill="#5eead4"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
 </g>
-<rect x="590" y="372" width="96" height="42" rx="21" fill="#0d9488"/>
-<text x="638" y="400" text-anchor="middle" fill="#fff" font-family="system-ui,Arial,sans-serif" font-size="20" font-weight="800">C++</text>
+<rect x="628" y="226" width="86" height="38" rx="19" fill="#0d9488"/>
+<text x="671" y="251" text-anchor="middle" fill="#fff" font-family="system-ui,Arial,sans-serif" font-size="19" font-weight="800">C++</text>
 </svg>
