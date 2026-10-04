@@ -5,15 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Adam Elhessy — Computer Engineer</title>
 <meta name="description" content="Portfolio of Adam Elhessy, computer engineering student at Ain Shams University.">
+<script>document.documentElement.className+=' js'</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
 <div class="wrap"><header class="top"><a class="logo" href="#top">Adam Elhessy</a>
 <nav aria-label="Main"><a href="#about">About</a><a href="#work">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav></header></div>
-
 <main id="top">
 <div class="hero"><div class="hero-wrap"><div class="hero-in"><div>
 <h1>Adam<br>Elhessy</h1>
@@ -22,20 +23,17 @@
 <div class="btns"><a class="btn p" href="#work">See my projects</a><a class="btn s" href="https://github.com/adamelhessy" target="_blank" rel="noopener">GitHub profile</a></div>
 <div class="facts"><span><b>Studying</b> Computer Engineering</span><span><b>University</b> Ain Shams</span><span><b>Focus</b> Java, OOP, web</span></div>
 </div><figure class="photo"><img src="images/adam.jpg" alt="Portrait of Adam Elhessy in a dark blazer and white shirt" width="581" height="666"></figure></div></div></div>
-
 <section id="about"><div class="wrap">
-<h2>About me</h2>
+<h2 class="reveal">About me</h2>
 <div class="about">
-<div><p>I'm a computer engineering student at Ain Shams University with a habit of building things to see how they work. I like turning a vague requirement into clear classes, clean data flow, and a screen someone can use.</p>
+<div class="reveal"><p>I'm a computer engineering student at Ain Shams University with a habit of building things to see how they work. I like turning a vague requirement into clear classes, clean data flow, and a screen someone can use.</p>
 <p>My biggest project so far is a hotel reservation system written in Java with a team of five. I worked on the admin tools, the receptionist role, amenity pricing and revenue reports, and spent a lot of time debugging the whole system.</p></div>
-<div><p>Outside coursework I build and deploy web projects with HTML, CSS and JavaScript, and keep my work on GitHub with regular commits.</p>
+<div class="reveal"><p>Outside coursework I build and deploy web projects with HTML, CSS and JavaScript, and keep my work on GitHub with regular commits.</p>
 <p>I'm looking for internships and projects where I can keep learning on real code and work with people who review each other's work.</p></div>
 </div></div></section>
-
 <section id="work" style="padding-top:24px"><div class="wrap">
-<h2>Projects</h2>
-
-<article class="feature">
+<h2 class="reveal">Projects</h2>
+<article class="feature reveal">
 <img src="images/hotel-app.jpg" alt="Grand Azure Digital Concierge room search screen showing filters and room cards" width="1100" height="697">
 <div class="pbody">
 <h3>Grand Azure Hotel Reservation System</h3>
@@ -49,35 +47,69 @@
 </div></article>
 
 <div class="pair">
-<article class="mini"><h3>DOKAN Shop</h3>
+<article class="mini reveal"><div class="thumb"><img src="images/pharmacy.svg" alt="Console menu of the Smart Pharmacy Management System with manager and pharmacist login options" width="800" height="500" loading="lazy"></div>
+<h3>Smart Pharmacy Management System</h3>
+<p class="kind">Team project in C++, built with the JAMBOY Team</p>
+<p>A menu-driven console application for pharmacy operations. Managers and pharmacists log in with different roles, a 50-medicine inventory warns about low stock, bills apply a 10% discount over 300 LE, and all data is saved to text files.</p>
+<ul class="tags"><li>C++</li><li>File I/O</li><li>Role-based access</li><li>Teamwork</li></ul>
+<a class="link" href="https://github.com/adamelhessy/Pharmacy-Management-System" target="_blank" rel="noopener">Code</a></article>
+
+<article class="mini reveal"><div class="thumb"><img src="images/currency-converter.png" alt="Currency Converter app with amount field, USD and EGP selectors with flags, swap button and Convert button" width="1442" height="696" loading="lazy"></div>
+<h3>Currency Converter</h3>
+<p>Converts between 160+ world currencies using live exchange rates, with country flags, a swap button and friendly error messages. Built with plain JavaScript and Bootstrap.</p>
+<ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li><li>Vercel</li></ul>
+<a class="link" href="https://exchanger-beige.vercel.app" target="_blank" rel="noopener">Live site</a><a class="link" href="https://github.com/adamelhessy/currency-converter" target="_blank" rel="noopener">Code</a></article>
+</div>
+
+<div class="pair">
+<article class="mini reveal"><div class="thumb"><img src="images/translator.png" alt="Translator app with English and Arabic language selectors, text boxes and a Translate button" width="1427" height="663" loading="lazy"></div>
+<h3>Translator</h3>
+<p>A simple browser app for translating text: type what you want translated and press Translate. Written in HTML, CSS and JavaScript and published as a live demo.</p>
+<ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Vercel</li></ul>
+<a class="link" href="https://translator-beige-iota.vercel.app" target="_blank" rel="noopener">Live site</a><a class="link" href="https://github.com/adamelhessy/translator" target="_blank" rel="noopener">Code</a></article>
+
+<article class="mini reveal"><h3>DOKAN Shop</h3>
 <p>A multi-page online shop front end with its own stylesheets, scripts and product pages, deployed live on Vercel.</p>
 <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Vercel</li></ul>
 <a class="link" href="https://dokan-shop-bay.vercel.app/" target="_blank" rel="noopener">Live site</a><a class="link" href="https://github.com/adamelhessy/DOKAN-SHOP" target="_blank" rel="noopener">Code</a></article>
-<article class="mini"><h3>Exchanger</h3>
-<p>A lightweight browser app built with plain HTML, CSS and JavaScript, with no framework. Published as a live demo.</p>
-<ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Vercel</li></ul>
-<a class="link" href="https://exchanger-beige.vercel.app" target="_blank" rel="noopener">Live site</a><a class="link" href="https://github.com/adamelhessy/exchanger" target="_blank" rel="noopener">Code</a></article>
 </div></div></section>
-
 <section id="skills"><div class="wrap">
-<h2>Skills</h2>
+<h2 class="reveal">Skills</h2>
 <div class="skills">
-<div><h3>Programming</h3><ul><li>Java</li><li>Object-oriented design</li><li>JavaScript</li></ul></div>
-<div><h3>Web</h3><ul><li>HTML5</li><li>CSS3</li><li>Responsive layouts</li></ul></div>
-<div><h3>Tools and practice</h3><ul><li>Git and GitHub</li><li>UML modelling</li><li>Debugging and code review</li></ul></div>
+<div class="reveal"><h3>Programming</h3><ul><li>Java</li><li>C++</li><li>Object-oriented design</li><li>JavaScript</li></ul></div>
+<div class="reveal"><h3>Web</h3><ul><li>HTML5</li><li>CSS3</li><li>Responsive layouts</li></ul></div>
+<div class="reveal"><h3>Tools and practice</h3><ul><li>Git and GitHub</li><li>UML modelling</li><li>Debugging and code review</li></ul></div>
 </div></div></section>
-
 <section style="padding-top:0"><div class="wrap">
-<h2>Education</h2>
-<div class="edu"><div><h3>B.Sc. Computer Engineering</h3><p>Ain Shams University</p></div><p class="when">In progress</p></div>
+<h2 class="reveal">Education</h2>
+<div class="edu reveal"><div><h3>B.Sc. Computer Engineering</h3><p>Ain Shams University</p></div><p class="when">In progress</p></div>
 </div></section>
-
-<section id="contact" style="padding-top:0"><div class="wrap"><div class="contact">
+<section id="contact" style="padding-top:0"><div class="wrap"><div class="contact reveal">
 <h2>Let's work together</h2>
-<p>Looking for an internship or a project to build? My code and latest work are on GitHub.</p>
+<p>Looking for an internship or a project to build? My code and latest work are on GitHub, or send me a message below.</p>
+<div class="contact-links">
 <a class="btn" href="https://github.com/adamelhessy" target="_blank" rel="noopener">Visit my GitHub</a>
+<a class="btn" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn" href="mailto:adam.elhessy1122@gmail.com">Email me</a>
+</div>
+
+<form class="cform" id="contact-form" action="https://formsubmit.co/adam.elhessy1122@gmail.com" method="POST">
+<h3>Send me a message</h3>
+<div class="row">
+<div class="field"><label for="cf-name">Name</label><input id="cf-name" name="name" type="text" autocomplete="name" required></div>
+<div class="field"><label for="cf-email">Email</label><input id="cf-email" name="email" type="email" autocomplete="email" required></div>
+</div>
+<div class="field"><label for="cf-msg">Message</label><textarea id="cf-msg" name="message" required></textarea></div>
+<input type="hidden" name="_subject" value="New message from your portfolio">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<div class="hp" aria-hidden="true"><label>Leave this empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+<button class="btn" type="submit">Send message</button>
+<p class="status" role="status" aria-live="polite"></p>
+</form>
 </div></div></section>
 </main>
-<footer><div class="wrap">© 2026 Adam Elhessy</div></footer>
+<footer><div class="wrap">© 2026 Adam Elhessy<span class="sep">·</span><a href="mailto:adam.elhessy1122@gmail.com">Email</a><span class="sep">·</span><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a><span class="sep">·</span><a href="https://github.com/adamelhessy" target="_blank" rel="noopener">GitHub</a></div></footer>
+<script src="js/main.js"></script>
 </body>
 </html>
